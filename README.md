@@ -8,7 +8,7 @@ a **Ticketing System**, **Support Articles** and a very comprehensive **Staff Pa
 
 ## Why DarAuxilium
 Well, I built it because i needed a way to **organize, streamline** and **make easier** the way I help.
-I managed to achieve this by preventing tickets in the first place with the [Articles](##Articles) feature.
+I managed to achieve this by preventing tickets in the first place with the [Articles](## Articles) feature.
 
 DarAuxilium is super easy to install, just grab the latest release, shove it in an htdocs folder, setup the database and you're good to go! It usually takes less than 1 hour
 
