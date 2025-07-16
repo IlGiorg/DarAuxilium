@@ -17,9 +17,9 @@ try {
 
     // Get tickets with status open or in progress
     $stmt = $pdo->query("
-        SELECT t.*, c.Name, c.Surname, c.email
+        SELECT t.*, c.name, c.surname, c.email
         FROM tickets t
-        JOIN customers c ON t.customer_id = c.customerid
+        JOIN customers c ON t.customer_id = c.customer_id
         WHERE t.status IN ('open', 'in progress')
         ORDER BY 
             CASE t.priority
