@@ -6,6 +6,8 @@
 DarAuxilium is a very basic support solution that includes
 a **Ticketing System**, **Support Articles** and a very comprehensive **Staff Panel**.
 
+DarAuxilium means "To Give Help", which I find is a perfect name for the project.
+
 ## Why DarAuxilium
 Well, I built it because i needed a way to **organize, streamline** and **make easier** the way I help.
 I managed to achieve this by preventing tickets in the first place with the articles feature.
