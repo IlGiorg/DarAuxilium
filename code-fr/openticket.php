@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Submit Ticket</title>
+    <title>Envoyer Ticket</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -63,12 +63,12 @@
 <body>
 
 <div class="form-container">
-    <h2>Submit a Support Ticket</h2>
+    <h2>Invia richiesta di support - Ticket</h2>
     <form method="post">
-        <p>Customer ID</p>
+        <p>Numero Identificativo Personale</p>
         <input type="number" name="customer_id" placeholder="Your Personal ID Number" required>
         <!-- <input type="text" name="customer_name" placeholder="Customer Name" required> -->
-         <p>Device</p>
+         <p>Dispositivo</p>
         <select name="device">
             <option value="iPhone">iPhone</option>
             <option value="Android">Android</option>
@@ -78,26 +78,26 @@
             <option value="MacBook">MacBook</option>
             <option value="iPad">iPad</option>
         </select>
-        <p>Incident Date</p>
+        <p>Data del problema</p>
         <input type="date" name="open_date" required>
-        <p>Issue Category</p>
+        <p>Categoria</p>
         <select name="issue_category">
-            <option value="software">Software Issues</option>
-            <option value="hardware">Hardware Issues</option>
-            <option value="connection">Connectivity Problems (WiFi, VPN)</option>
-            <option value="performance">Performance Issue (Slow, Freezing)</option>
-            <option value="account">Account Management</option>
-            <option value="complaints">Complaints and Feedback</option>
-            <option value="other">Other</option>
+            <option value="software">Software</option>
+            <option value="hardware">Hardware</option>
+            <option value="connection">Problemi di Connessione (Wifi,VPN)</option>
+            <option value="performance">Problemi di Performance (Lento, Bloccato)</option>
+            <option value="account">Account</option>
+            <option value="complaints">Reclami e Feedback</option>
+            <option value="other">Altro</option>
         </select>
-        <p>Issue Priority - Please be mindful</p>
+        <p>Priorità - Per favore, sii cosciente</p>
         <select name="priority">
-            <option value="low">Low</option>
-            <option value="medium" selected>Medium</option>
-            <option value="high">High</option>
+            <option value="low">Faible</option>
+            <option value="medium" selected>Moyen</option>
+            <option value="high">Élevé</option>
         </select>
-        <textarea name="description" placeholder="Describe the issue" rows="4"></textarea>
-        <button type="submit" name="submit">Submit Ticket</button>
+        <textarea name="description" placeholder="Descrivi il problema" rows="4"></textarea>
+        <button type="submit" name="submit">Envoyer Ticket</button>
     </form>
 
     <?php

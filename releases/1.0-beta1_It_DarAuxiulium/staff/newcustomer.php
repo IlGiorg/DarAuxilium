@@ -1,9 +1,9 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $host = 'sql109.infinityfree.com';
-    $db   = 'if0_39477627_giorgiosupport';
-    $user = 'if0_39477627';
-    $pass = 'QkfyWlKtj7';
+        $host = 'yourhostname';
+        $db   = 'yourdatabasename';
+        $user = 'yourdbusername';
+        $pass = 'yourdbpassword';
 
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass, [
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>New Customer</title>
+    <title>Nuovo Utente</title>
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -76,12 +76,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
 <div class="form-container">
-    <h2>New Customer</h2>
+    <h2>Nuovo Utente</h2>
     <form method="post">
         <input type="text" name="name" placeholder="Nome" required>
         <input type="text" name="surname" placeholder="Cognome" required>
         <input type="email" name="email" placeholder="Email" required>
-        <button type="submit">Add Customer</button>
+        <button type="submit">Aggiungi Utente</button>
     </form>
 </div>
 

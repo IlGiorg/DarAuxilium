@@ -1,8 +1,8 @@
 <?php
-$host = 'sql109.infinityfree.com';
-$db   = 'if0_39477627_giorgiosupport';
-$user = 'if0_39477627';
-$pass = 'QkfyWlKtj7';
+        $host = 'yourhostname';
+        $db   = 'yourdatabasename';
+        $user = 'yourdbusername';
+        $pass = 'yourdbpassword';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass, [
@@ -39,7 +39,7 @@ try {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Open Tickets</title>
+    <title>Tickets Aperti</title>
     <style>
         body { font-family: sans-serif; background: #f0f2f5; padding: 30px; }
         table { width: 100%; border-collapse: collapse; background: #fff; }
@@ -58,19 +58,19 @@ try {
 </head>
 <body>
 
-<h2>Open & In-Progress Tickets</h2>
+<h2>Tickets Aperti e In Corso</h2>
 
 <table>
     <thead>
         <tr>
-            <th>Ticket ID</th>
-            <th>Customer</th>
-            <th>Device</th>
-            <th>Date Opened</th>
-            <th>Category</th>
-            <th>Priority</th>
-            <th>Status</th>
-            <th>Actions</th>
+            <th>ID Ticket</th>
+            <th>Utente</th>
+            <th>Dispositivo</th>
+            <th>Data Apertura Ticket</th>
+            <th>Categoria</th>
+            <th>Priorità</th>
+            <th>Stato</th>
+            <th>Descrizione</th>
         </tr>
     </thead>
     <tbody>

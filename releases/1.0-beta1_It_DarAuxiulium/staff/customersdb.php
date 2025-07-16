@@ -1,8 +1,8 @@
 <?php
-$host = 'sql109.infinityfree.com';
-$db   = 'if0_39477627_giorgiosupport';
-$user = 'if0_39477627';
-$pass = 'QkfyWlKtj7';
+        $host = 'yourhostname';
+        $db   = 'yourdatabasename';
+        $user = 'yourdbusername';
+        $pass = 'yourdbpassword';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass, [
@@ -44,9 +44,9 @@ try {
 <table>
     <thead>
         <tr>
-            <th>Customer ID</th>
-            <th>Name</th>
-            <th>Surname</th>
+            <th>ID Utente</th>
+            <th>Nome</th>
+            <th>Cognome</th>
             <th>Email</th>
         </tr>
     </thead>
