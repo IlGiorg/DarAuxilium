@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portale Staff</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .button {
+            display: block;
+            width: 220px;
+            margin: 15px auto;
+            padding: 12px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Accesso Rapido Staff</h2>
+    <a href="/staff/newticket.php" class="button">Apri Nuovo Ticket</a>
+    <a href="/staff/opentickets.php" class="button">Tickets Aperti</a>
+    <a href="/staff/newcustomer.php" class="button">Aggiungi Nuovo Utente</a>
+    <a href="/staff/closedtickets.php" class="button">Tickets Chiusi</a>
+    <a href="/staff/customersdb.php" class="button">Database Utenti</a>
+</div>
+
+</body>
+</html>
