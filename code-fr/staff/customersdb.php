@@ -21,7 +21,7 @@ try {
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Customer List</title>
+    <title>Liste des clients</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 30px; }
         table {
@@ -39,15 +39,15 @@ try {
 </head>
 <body>
 
-<h2>All Customers</h2>
+<h2>Tout les clients</h2>
 
 <table>
     <thead>
         <tr>
             <th>ID Utente</th>
-            <th>Nome</th>
-            <th>Cognome</th>
-            <th>Email</th>
+            <th>Pre-Nom</th>
+            <th>Nom</th>
+            <th>Courriel</th>
         </tr>
     </thead>
     <tbody>

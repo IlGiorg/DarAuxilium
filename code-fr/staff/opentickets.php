@@ -39,7 +39,7 @@ try {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tickets Aperti</title>
+    <title>Tickets Ouvert</title>
     <style>
         body { font-family: sans-serif; background: #f0f2f5; padding: 30px; }
         table { width: 100%; border-collapse: collapse; background: #fff; }
@@ -58,19 +58,19 @@ try {
 </head>
 <body>
 
-<h2>Tickets Aperti e In Corso</h2>
+<h2>Tickets Ouvert et En Corse</h2>
 
 <table>
     <thead>
         <tr>
             <th>ID Ticket</th>
-            <th>Utente</th>
-            <th>Dispositivo</th>
-            <th>Data Apertura Ticket</th>
-            <th>Categoria</th>
+            <th>User</th>
+            <th>Device</th>
+            <th>Ticket Opening Date</th>
+            <th>Category</th>
             <th>Priorità</th>
-            <th>Stato</th>
-            <th>Descrizione</th>
+            <th>Status</th>
+            <th>Description</th>
         </tr>
     </thead>
     <tbody>

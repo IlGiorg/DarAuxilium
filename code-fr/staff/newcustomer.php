@@ -76,12 +76,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
 <div class="form-container">
-    <h2>Nuovo Utente</h2>
+    <h2>Nouvel Utilisateur</h2>
     <form method="post">
-        <input type="text" name="name" placeholder="Nome" required>
-        <input type="text" name="surname" placeholder="Cognome" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <button type="submit">Aggiungi Utente</button>
+        <input type="text" name="name" placeholder="Pre-Nom" required>
+        <input type="text" name="surname" placeholder="Nom" required>
+        <input type="email" name="email" placeholder="Courriel" required>
+        <button type="submit">Ajouter Utilisateur</button>
     </form>
 </div>
 

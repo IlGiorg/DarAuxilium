@@ -39,7 +39,7 @@ try {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tickets Chiusi</title>
+    <title>Tickets Fermés</title>
     <style>
         body { font-family: sans-serif; background: #f0f2f5; padding: 30px; }
         table { width: 100%; border-collapse: collapse; background: #fff; }
@@ -58,19 +58,19 @@ try {
 </head>
 <body>
 
-<h2>Tickets Chiusi</h2>
+<h2>Tickets Fermés</h2>
 
 <table>
     <thead>
         <tr>
             <th>Ticket ID</th>
-            <th>Utente</th>
-            <th>Dispositivo</th>
-            <th>Data di Apertura Ticket</th>
-            <th>Categoria</th>
-            <th>Priorità</th>
-            <th>Stato</th>
-            <th>Descrizione</th>
+            <th>Demandeur</th>
+            <th>Appareil</th>
+            <th>Date d'Ouverture Ticket</th>
+            <th>catégorie</th>
+            <th>Priorité</th>
+            <th>Condition</th>
+            <th>Description</th>
         </tr>
     </thead>
     <tbody>
